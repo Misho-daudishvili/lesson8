@@ -1,0 +1,80 @@
+.ocean {
+    background: url(../images/istockphoto-1420686534-640x640.jpg);
+    height: 950px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    margin-top: 600px;
+    position: absolute;
+    animation-name: sailboat;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes sailboat {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 1500px;
+    }
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+      position: absolute;
+      margin-top: 700px;
+    animation-name: sailboat;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes boat {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 1500px;
+    }
+}
+
+.ship {
+    width: 300px;
+    height: 300px;
+    margin-top: 340px;
+    position: absolute;
+    animation: ship 30s ease-in alternate infinite 5s;
+}
+
+@keyframes ship{
+    from {transform: translateX(0);}
+    to {transform: translateX(1500px);}
+}
+.cloud{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    animation: cloud 20s ease-in alternate infinite 1s;
+}
+
+@keyframes cloud{
+    from {transform: translateX(0);}
+    to {transform: translateX(1500px);}
+}
+
+
